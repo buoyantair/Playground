@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background: #5C258D;
+  background: -webkit-linear-gradient(30deg, #4389A2, #5C258D);
+  background: linear-gradient(30deg, #4389A2, #5C258D);
+}
+
+.board {
+  width: 400px;
+  height: 400px;
+  background: none;
+  margin: auto;
+  border-radius: 5px;
+}
+.board .row {z
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 100%;
+  height: 200px;
+}
+.board .row .box {
+  width: 200px;
+  height: 200px;
+  transition: all 0.7s;
+}
+
+#blue {
+  background: #47A7E8;
+}
+
+#red {
+  background: #E8418A;
+}
+
+#yellow {
+  background: #FFD769;
+}
+
+#green {
+  background: #55E86E;
+}
+
+.highlighted {
+  transform: scale(.5);
+}

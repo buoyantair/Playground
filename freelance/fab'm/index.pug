@@ -1,0 +1,51 @@
+doctype html
+html(lang="en")
+  head
+    title The Fab'm Shop
+    link(rel="stylesheet" type="text/css" href="assets/css/style.css")
+    link(href="https://fonts.googleapis.com/css?family=Montserrat:900|Roboto" rel="stylesheet")
+  body
+    #scroller
+      .intro
+        a.holo-btn(onclick="showdown(this)") GO
+      #scroller-shophead
+        .shop-head
+          nav
+            a(href="#") Tops
+            a(href="#") Dresses
+            a(href="#") Skirts
+            a(href="#") Pants
+            a(href="#") Shorts
+            a(href="#") Leggings
+        #catalog
+          .product#img1
+            .overlay
+              button BUY
+          .product#img2
+            .overlay
+              button BUY
+          .product#img3
+            .overlay
+              button BUY
+          .product#img4
+            .overlay
+              button BUY
+          .product#img5
+            .overlay
+              button BUY
+          .product#img6
+            .overlay
+              button BUY
+        .showcase
+          .poly.poly1
+          .text-area
+            h1 Push the limits
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        .showcase
+          .text-area
+            h1 Push the limits
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          .poly.poly2
+      a(href="https://buoyantair.github.io/FubizDesignRemake/").next
+        h1 NEXT: Fubiz Design Remake
+    script(type="text/javascript" src="assets/js/behaviour.js")

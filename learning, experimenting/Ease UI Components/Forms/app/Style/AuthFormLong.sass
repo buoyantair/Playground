@@ -1,0 +1,73 @@
+
+
+
+$light-grey: #7f8c8d
+$dark-grey: #2c3e50
+=flex($direction, $position)
+    display: flex
+    flex-flow: $direction
+    justify-content: $position
+
+=size($width, $height)
+    width: $width
+    height: $height
+
+=min-size($width, $height)
+    min-width: $width
+    min-height: $height
+
+body 
+    background: #ecf0f1
+
+$form-width: 700px
+$form-height: 400px
+
+.form
+    background: #FFF
+    font-family: "Open Sans", sans-serif
+    color: $light-grey
+    font-size: 20px
+    margin: 20px
+    +flex(column wrap, flex-start)
+    width: $form-width
+    min-height: $form-height
+    .form-header
+        +flex(row wrap, flex-start)
+        +size($form-width, $form-height/4)
+        border-bottom: 1px solid lighten($light-grey, 20%)
+        .bold
+            color: $dark-grey
+            font-weight: bold
+        a,button, a:hover,button:hover, a:active,button:active 
+            outline: none
+            text-decoration: none
+            color: inherit
+            font-size: 20px
+            transition: all .5s
+            height: $form-height/4
+    .form-body
+        min-height: $form-height/4 * 3
+        width: $form-width
+        .container
+            width: inherit
+            height: inherit
+            .row
+                margin-right: 0
+                margin-left: 0 
+                +flex(row wrap, space-around)
+        .form-group
+            margin: 10px
+            label
+                font-family: "Open Sans", sans-serif
+                font-weight: 400
+                font-size: 18px
+        button[type*="submit"]
+            background: $dark-grey
+            +min-size(200px, 50px)
+            color: #FFF
+            transition: all .1s
+        button[type*="submit"]:hover
+            color: $dark-grey
+            font-weight: bold
+            background: inherit
+            

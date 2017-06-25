@@ -1,0 +1,61 @@
+.app{
+  background: linear-gradient(-225deg, #E88D8D, #E6114A);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.userShield{
+  width: 350px;
+  height: 500px;
+  margin: 10px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+}
+.userShield input, .userShield input:focus{
+  width: 300px;
+  height: 30px;
+  margin: 10px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  box-shadow: 0px 5px 12px 0px rgba(0,0,0,0.15);
+  outline: none;
+  color: #666;
+}
+
+.userShield button, .userShield button:focus{
+  background: #FF436F;
+  width: 150px;
+  height: 50px;
+  color: #FFF;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 15px;
+  box-shadow: 0px 5px 12px 0px rgba(0,0,0,0.15);
+  outline: none;
+  transition: all .3s;
+  text-align: center;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.userShield button:hover{
+  background: #D91C48;
+  cursor: pointer;
+}
+
+.userIconBig{
+  width: 160px;
+  height: 160px;
+  margin: auto;
+  border-radius: 100%;
+  background: #FFF;
+}

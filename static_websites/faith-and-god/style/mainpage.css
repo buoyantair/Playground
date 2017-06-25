@@ -1,0 +1,101 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+html, body {height: 100%;}
+
+body{
+	background: #68747F; /* Grey */
+	color: #FFF;
+	
+}
+
+.header{
+	background: #B08EFF;   /* Violet */
+	background: url("../images/header-bg1.jpg") no-repeat;
+	background-position: left top;
+	background-size:  100% 100%;
+	margin: 0 auto;
+    height: 90%;
+	padding-left: 3em;
+	padding-right: 3em;
+	overflow: auto;
+}
+
+.brand{
+	font-family: 'Tangerine', cursive;
+	margin-top: 1em;
+	font-size: 100px;
+}
+
+.subtitle{
+	font-family: 'Roboto Slab', serif;
+	font-size: 15px;
+}
+
+nav{
+	background: #F7514B;
+	color: #FFF;
+	height: auto;
+	display:block;
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+	overflow: auto;
+}
+nav ul{margin: 0 auto;float:center;}
+nav li{list-style:none;}
+
+nav li a{
+	text-align: center;
+	vertical-align: middle;
+	padding: 1em;
+	width: 10%;
+	display:inline-block;
+	float:left;
+	min-height: 1em;
+	background-color: #F7514B;
+}
+
+nav li a:hover{
+	background-color: #BD3E39;
+}
+
+.body{
+	background: #FFF;   
+	margin: 0 auto;
+    min-height: 100%;
+	padding: 3em 3em 3em 3em;
+	overflow: auto;
+}
+
+.articles{
+	background-color: #3A4042;
+	border-radius: 10px;
+	overflow: auto;
+	padding-left: 5em;
+	padding-bottom: 5em;
+	font-family: 'Oxygen', serif;
+	box-shadow: inset 0px 10px 100px 10px rgba(0,0,0,0.5);
+}
+
+.articles h1{
+	font-size: 50px;
+}
+
+.footer{
+	background: #303030;   
+	color: #FFF;
+	font-family: 'Oxygen', serif;
+	margin: 0 auto;
+    height: 300px;
+	padding: 3em 3em 3em 3em;
+	box-shadow: inset 0px 10px 100px 10px rgba(0,0,0,0.5);
+}
+
+

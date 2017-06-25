@@ -1,0 +1,249 @@
+.intro-scrolled {
+  transform: translateY(-10vh); }
+
+.scroller-shophead-scrolled {
+  transform: translateY(-80vh); }
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-y: hidden; }
+
+#scroller {
+  position: absolute;
+  z-index: 1000;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  min-width: 100%;
+  min-height: 100vh;
+  transition: all 0.1s; }
+
+.intro {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  min-width: 100%;
+  min-height: 100vh;
+  background: url("../img/alice-moore.jpg") no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  z-index: inherit;
+  transition: all 1s; }
+
+#scroller-shophead {
+  z-index: 1100;
+  transition: all 0.5s; }
+
+.shop-head {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  min-width: 100%;
+  min-height: 100vh;
+  background: #FFF;
+  clip-path: polygon(0% 20%, 95% 0%, 98% 30%, 90% 60%, 100% 70%, 100% 100%, 0% 100%);
+  z-index: 1100;
+  transition: all 0.8s; }
+
+.shop-head nav {
+  text-align: center;
+  margin: auto;
+  min-width: 80%;
+  min-height: 4em;
+  max-height: 4em;
+  width: 70%;
+  box-shadow: 0px 7px 17px 1px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  flex: 1; }
+  .shop-head nav a {
+    color: #3E3E3E;
+    text-decoration: none;
+    font-size: 20px;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+    transition: all 0.5s;
+    padding: 1em;
+    height: 100%; }
+  .shop-head nav a:hover {
+    text-shadow: -2px 2px 1px #EE3D72;
+    color: #FFF; }
+
+#catalog {
+  display: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  min-width: 90%;
+  min-height: 100vh;
+  width: 80%;
+  background: #FFF;
+  z-index: inherit;
+  transition: all 1s;
+  margin: auto; }
+  #catalog .product {
+    margin: 0.2em;
+    width: 300px;
+    height: 300px;
+    max-width: 300px;
+    max-height: 300px;
+    box-shadow: 0px 7px 17px 1px rgba(0, 0, 0, 0.1);
+    overflow: hidden; }
+    #catalog .product .overlay {
+      background: #FFF;
+      width: 450px;
+      position: relative;
+      top: 200px;
+      height: 100px;
+      transform-origin: top right;
+      transform: rotateZ(-7deg);
+      right: 0.5em;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: flex-start;
+      text-align: center; }
+      #catalog .product .overlay button {
+        font-family: "Montserrat", sans-serif;
+        margin: auto;
+        width: 6em;
+        height: 2em;
+        max-width: 6em;
+        max-height: 2em;
+        transform: translateY(-0.5em);
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        text-align: center;
+        border: none;
+        background: #3FB04B;
+        color: #FFF; }
+      #catalog .product .overlay button:hover {
+        outline: none;
+        background: #FFF;
+        color: #3FB04B;
+        border: 1px solid #3FB04B;
+        border-radius: 2px;
+        cursor: pointer; }
+
+.showcase {
+  margin-top: 3em;
+  width: 100%;
+  height: 100vh;
+  max-width: 100%;
+  max-height: 100vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  color: #3E3E3E; }
+  .showcase .poly {
+    width: 50%;
+    height: 100%;
+    max-width: 50%;
+    max-height: 100%;
+    margin: auto 0; }
+  .showcase .text-area {
+    margin: auto 0;
+    width: 50%;
+    height: 100%;
+    max-width: 50%;
+    max-height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: center; }
+    .showcase .text-area h1 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 30px;
+      color: inherit; }
+    .showcase .text-area p {
+      font-family: "Roboto", sans-serif;
+      font-size: 20px;
+      color: inherit; }
+
+.next {
+  width: 100%;
+  height: 10em;
+  background: url("https://images.unsplash.com/photo-1454789591675-556c287e39e2?dpr=1&auto=compress,format&fit=crop&w=1200&h=300&q=100&cs=tinysrgb") no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #FFF;
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  text-decoration: none;
+  margin-top: 1em; }
+
+.poly1 {
+  background: url("../img/brooke-cagle-bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(5% 20%, 80% 0%, 100% 100%, 10% 80%); }
+
+.poly2 {
+  background: url("../img/liu-jiao.jpg") no-repeat;
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(5% 20%, 80% 30%, 95% 80%, 25% 100%); }
+
+#img1 {
+  background: url("../img/brooke-cagle.jpg") no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+#img2 {
+  background: url("../img/brooke-cagle7.jpg") no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+#img3 {
+  background: url("../img/eli-defaria.jpg") no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+#img4 {
+  background: url("../img/svetlana-pochatun.jpg") no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+#img5 {
+  background: url("../img/william-stitt.jpg") no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+#img6 {
+  background: url("../img/brooke-cagle-bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+a.holo-btn {
+  width: 4em;
+  height: 1.3em;
+  max-width: 4em;
+  max-height: 1.3em;
+  background: none;
+  text-decoration: none;
+  text-align: center;
+  color: #FFF;
+  font-size: 2em;
+  border-radius: 25px;
+  border: 2px solid #FFF;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  transition: all 0.5s; }
+
+a.holo-btn:hover {
+  background: #FFF;
+  color: #f677a5;
+  border-radius: 10px;
+  border: 2px solid #FFF;
+  cursor: pointer;
+  transform: scale(1.1) translateY(10%); }
+
+/*# sourceMappingURL=style.css.map */
