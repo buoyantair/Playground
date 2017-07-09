@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-4B8PHOA</Machine>
+    <WindowsUser>buoyantair</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>16ffeb3a-b328-4e8c-9fa5-4fb109529e57</PackageIdentityName>
+    <PackageIdentityPublisher>CN=buoyantair</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\Workspace\DevData\web-dev-projects\playground\test on react\test on react\bld\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>
+    </WindowsSdkPath>
+    <LayoutDir>D:\Workspace\DevData\web-dev-projects\playground\test on react\test on react\bin\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>67381A6642B39CC37BCA147A79BCDBE501EDCE46D661FB282461053EC487684B</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>16ffeb3a-b328-4e8c-9fa5-4fb109529e57_1.0.0.0_neutral__xe5d0k6f1p594</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>16ffeb3a-b328-4e8c-9fa5-4fb109529e57_xe5d0k6f1p594!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>16ffeb3a-b328-4e8c-9fa5-4fb109529e57</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=buoyantair</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Workspace\DevData\web-dev-projects\playground\test on react\test on react\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-07-05T16:38:17.076</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Workspace\DevData\web-dev-projects\playground\test on react\test on react\index.html">
+      <PackagePath>index.html</PackagePath>
+      <Modified>2017-07-05T16:32:22.835</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Workspace\DevData\web-dev-projects\playground\test on react\test on react\images\LockScreenLogo.scale-200.png">
+      <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2017-07-04T17:19:07.259</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Workspace\DevData\web-dev-projects\playground\test on react\test on react\images\SplashScreen.scale-200.png">
+      <PackagePath>images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-07-04T17:19:07.259</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Workspace\DevData\web-dev-projects\playground\test on react\test on react\images\Square150x150Logo.scale-200.png">
+      <PackagePath>images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-07-04T17:19:07.259</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Workspace\DevData\web-dev-projects\playground\test on react\test on react\images\Square44x44Logo.scale-200.png">
+      <PackagePath>images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-07-04T17:19:07.259</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Workspace\DevData\web-dev-projects\playground\test on react\test on react\images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-07-04T17:19:07.259</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Workspace\DevData\web-dev-projects\playground\test on react\test on react\images\StoreLogo.png">
+      <PackagePath>images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-07-04T17:19:07.259</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Workspace\DevData\web-dev-projects\playground\test on react\test on react\images\Wide310x150Logo.scale-200.png">
+      <PackagePath>images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-07-04T17:19:07.259</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Workspace\DevData\web-dev-projects\playground\test on react\test on react\js\main.js">
+      <PackagePath>js\main.js</PackagePath>
+      <Modified>2017-07-05T16:32:22.827</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Workspace\DevData\web-dev-projects\playground\test on react\test on react\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2017-07-05T16:32:22.679</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Workspace\DevData\web-dev-projects\playground\test on react\test on react\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-07-05T16:38:16.393</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

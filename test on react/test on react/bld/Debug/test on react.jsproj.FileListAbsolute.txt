@@ -1,0 +1,16 @@
+D:\Workspace\DevData\web-dev-projects\playground\test on react\test on react\bin\Debug\ReverseMap\resources.pri
+D:\Workspace\DevData\web-dev-projects\playground\test on react\test on react\bin\Debug\AppxManifest.xml
+D:\Workspace\DevData\web-dev-projects\playground\test on react\test on react\bin\Debug\test on react.build.appxrecipe
+D:\Workspace\DevData\web-dev-projects\playground\test on react\test on react\bld\Debug\ResourceHandlingTask.state
+D:\Workspace\DevData\web-dev-projects\playground\test on react\test on react\bld\Debug\priconfig.xml
+D:\Workspace\DevData\web-dev-projects\playground\test on react\test on react\bld\Debug\priconfig.xml.intermediate
+D:\Workspace\DevData\web-dev-projects\playground\test on react\test on react\bld\Debug\layout.resfiles
+D:\Workspace\DevData\web-dev-projects\playground\test on react\test on react\bld\Debug\layout.resfiles.intermediate
+D:\Workspace\DevData\web-dev-projects\playground\test on react\test on react\bld\Debug\resources.resfiles
+D:\Workspace\DevData\web-dev-projects\playground\test on react\test on react\bld\Debug\resources.resfiles.intermediate
+D:\Workspace\DevData\web-dev-projects\playground\test on react\test on react\bld\Debug\pri.resfiles
+D:\Workspace\DevData\web-dev-projects\playground\test on react\test on react\bld\Debug\pri.resfiles.intermediate
+D:\Workspace\DevData\web-dev-projects\playground\test on react\test on react\bld\Debug\qualifiers.txt
+D:\Workspace\DevData\web-dev-projects\playground\test on react\test on react\bld\Debug\qualifiers.txt.intermediate
+D:\Workspace\DevData\web-dev-projects\playground\test on react\test on react\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Workspace\DevData\web-dev-projects\playground\test on react\test on react\bld\Debug\ProjectArchitectures.txt

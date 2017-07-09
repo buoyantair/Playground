@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-4B8PHOA</Machine>
+    <WindowsUser>buoyantair</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>86001265-dd67-4794-a086-d130eaeb10d5</PackageIdentityName>
+    <PackageIdentityPublisher>CN=buoyantair</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\Workspace\DevData\web-dev-projects\playground\uwp_js_app\uwp_js_app\bld\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>
+    </WindowsSdkPath>
+    <LayoutDir>D:\Workspace\DevData\web-dev-projects\playground\uwp_js_app\uwp_js_app\bin\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>06DCCC752D1135837140D708A6FD020D072A1E2BF8B12F17462CDF555E20822A</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>86001265-dd67-4794-a086-d130eaeb10d5_1.0.0.0_neutral__xe5d0k6f1p594</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>86001265-dd67-4794-a086-d130eaeb10d5_xe5d0k6f1p594!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>86001265-dd67-4794-a086-d130eaeb10d5</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=buoyantair</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Workspace\DevData\web-dev-projects\playground\uwp_js_app\uwp_js_app\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-07-05T04:53:15.934</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Workspace\DevData\web-dev-projects\playground\uwp_js_app\uwp_js_app\index.html">
+      <PackagePath>index.html</PackagePath>
+      <Modified>2017-07-05T04:42:50.008</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Workspace\DevData\web-dev-projects\playground\uwp_js_app\uwp_js_app\images\LockScreenLogo.scale-200.png">
+      <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2017-07-04T17:19:07.259</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Workspace\DevData\web-dev-projects\playground\uwp_js_app\uwp_js_app\images\SplashScreen.scale-200.png">
+      <PackagePath>images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-07-04T17:19:07.259</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Workspace\DevData\web-dev-projects\playground\uwp_js_app\uwp_js_app\images\Square150x150Logo.scale-200.png">
+      <PackagePath>images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-07-04T17:19:07.259</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Workspace\DevData\web-dev-projects\playground\uwp_js_app\uwp_js_app\images\Square44x44Logo.scale-200.png">
+      <PackagePath>images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-07-04T17:19:07.259</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Workspace\DevData\web-dev-projects\playground\uwp_js_app\uwp_js_app\images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-07-04T17:19:07.259</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Workspace\DevData\web-dev-projects\playground\uwp_js_app\uwp_js_app\images\StoreLogo.png">
+      <PackagePath>images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-07-04T17:19:07.259</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Workspace\DevData\web-dev-projects\playground\uwp_js_app\uwp_js_app\images\Wide310x150Logo.scale-200.png">
+      <PackagePath>images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-07-04T17:19:07.259</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Workspace\DevData\web-dev-projects\playground\uwp_js_app\uwp_js_app\js\main.js">
+      <PackagePath>js\main.js</PackagePath>
+      <Modified>2017-07-05T04:42:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Workspace\DevData\web-dev-projects\playground\uwp_js_app\uwp_js_app\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2017-07-05T04:42:49.894</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Workspace\DevData\web-dev-projects\playground\uwp_js_app\uwp_js_app\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-07-05T04:53:14.188</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

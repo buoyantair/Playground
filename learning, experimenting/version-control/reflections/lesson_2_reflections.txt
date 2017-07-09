@@ -1,0 +1,6 @@
+What Happens when you initialise a repository? Why do you need to do it?
+- git creates a repository and starts tracking changes made to the files.
+ This will ensure that the files are being tracked by git.
+
+ How is the staging area different from the working directory and the repository? What value do you think it offers?
+ - It will help us differentiate between what files we edited.
